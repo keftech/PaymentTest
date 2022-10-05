@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">PaymentTest</string>
+    <string name="enter_amount" tools:ignore="MissingTranslation">Enter amount to pay</string>
+    <string name="pay_text" tools:ignore="MissingTranslation">Click here to Pay</string>
+</resources>

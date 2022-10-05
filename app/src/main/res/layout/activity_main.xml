@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/amount_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:hint="@string/enter_amount"
+        android:inputType="numberSigned"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:importantForAutofill="no"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/android_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/black"
+        android:padding="5dp"
+        android:contentDescription="@string/pay_with_googlepay_button_content_description"
+        android:minHeight="48dp"
+        android:src="@drawable/pay_with_googlepay_button_content" />
+
+    <Button
+        android:id="@+id/remita_initiate_payment_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:contentDescription="@string/pay_text"
+        android:minHeight="48dp"
+        android:text="@string/pay_text" />
+  </LinearLayout>
